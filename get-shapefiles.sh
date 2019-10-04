@@ -20,7 +20,7 @@ tar -xzf data/world_boundaries-spherical.tgz -C data/
 
 # simplified-land-polygons-complete-3857
 echo "downloading simplified-land-polygons-complete-3857..."
-curl -z "data/simplified-land-polygons-complete-3857.zip" -L -o "data/simplified-land-polygons-complete-3857.zip" "http://data.openstreetmapdata.com/simplified-land-polygons-complete-3857.zip"
+curl -z "data/simplified-land-polygons-complete-3857.zip" -L -o "data/simplified-land-polygons-complete-3857.zip" "https://osmdata.openstreetmap.de/download/simplified-land-polygons-complete-3857.zip"
 echo "simplified-land-polygons-complete-3857..."
 unzip $UNZIP_OPTS data/simplified-land-polygons-complete-3857.zip simplified-land-polygons-complete-3857/simplified_land_polygons.{shp,shx,prj,dbf,cpg} -d data/
 
@@ -38,7 +38,7 @@ unzip $UNZIP_OPTS data/ne_10m_populated_places.zip -d data/ne_10m_populated_plac
 
 # land-polygons-split-3857
 echo "dowloading land-polygons-split-3857..."
-curl -z "data/land-polygons-split-3857.zip" -L -o "data/land-polygons-split-3857.zip" "http://data.openstreetmapdata.com/land-polygons-split-3857.zip"
+curl -z "data/land-polygons-split-3857.zip" -L -o "data/land-polygons-split-3857.zip" "https://osmdata.openstreetmap.de/download/land-polygons-split-3857.zip"
 echo "expanding land-polygons-split-3857..."
 unzip $UNZIP_OPTS data/land-polygons-split-3857.zip -d data/
 
