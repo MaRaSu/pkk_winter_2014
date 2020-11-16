@@ -26,7 +26,7 @@ unzip $UNZIP_OPTS data/simplified-land-polygons-complete-3857.zip simplified-lan
 
 # ne_110m_admin_0_boundary_lines_land
 echo "dowloading ne_110m_admin_0_boundary_lines_land..."
-curl -z data/ne_110m_admin_0_boundary_lines_land.zip -L -o data/ne_110m_admin_0_boundary_lines_land.zip http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/110m/cultural/ne_110m_admin_0_boundary_lines_land.zip
+curl -z data/ne_110m_admin_0_boundary_lines_land.zip -L -o data/ne_110m_admin_0_boundary_lines_land.zip https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/110m/cultural/ne_110m_admin_0_boundary_lines_land.zip
 echo "expanding ne_110m_admin_0_boundary_lines_land..."
 unzip $UNZIP_OPTS data/ne_110m_admin_0_boundary_lines_land.zip -d data/ne_110m_admin_0_boundary_lines_land/
 
